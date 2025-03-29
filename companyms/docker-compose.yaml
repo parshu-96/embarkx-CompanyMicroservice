@@ -33,7 +33,7 @@ services:
     image: openzipkin/zipkin
     container_name: zipkin
     ports:
-      - "9441:9441"
+      - "9411:9411"
     networks:
       - postgres
 
